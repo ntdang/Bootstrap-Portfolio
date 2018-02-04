@@ -1,4 +1,4 @@
-.navbar {
+.navbartop {
   margin-bottom: 20px;
 }
 
@@ -9,4 +9,11 @@
 
 .connect {
   text-align: center;
+}
+
+.footer {
+  background-color: #666666;
+  color: #cccccc;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  border-top: #4aaaa5 8px solid;
 }
