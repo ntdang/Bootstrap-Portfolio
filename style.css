@@ -2,13 +2,73 @@ body {
   font-family: 'Nanum Myeongjo', serif;
 }
 
+.fullname {
+  font-size: 30px;
+  font-weight: bold;
+}
 
 .navbartop {
   margin-bottom: 20px;
+  border-bottom: black 4px dotted;
 }
 
-.topnav {
+/* .topnav {
   margin-right: 65px;
+} */
+
+.snip1231 {
+  font-family: 'Nanum Myeongjo', serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1231 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1231 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 1em;
+  padding: 0;
+}
+.snip1231 a {
+  padding: 0.8em 17px;
+  color: black;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1231 a:before,
+.snip1231 a:after {
+  left: 0%;
+  right: 0%;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+  transform: translateY(-50%) rotate(0deg);
+  content: '';
+  border-left: 12px solid lightblue;
+  border-right: 12px solid lightblue;
+  height: 3px;
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1231 a:hover,
+.snip1231 .current a {
+  color: black;
+}
+.snip1231 a:hover:before,
+.snip1231 .current a:before {
+  -webkit-transform: translateY(-50%) rotate(12deg);
+  transform: translateY(-50%) rotate(12deg);
+}
+.snip1231 a:hover:after,
+.snip1231 .current a:after {
+  -webkit-transform: translateY(-50%) rotate(-12deg);
+  transform: translateY(-50%) rotate(-12deg);
 }
 
 .profilepic {
@@ -23,8 +83,7 @@ body {
 .footer {
   background-color: lightblue;
   color: black;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  border-top: black 6px dotted;
+  border-top: black 4px dotted;
 }
 
 .rightbox {
