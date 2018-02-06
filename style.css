@@ -21,3 +21,7 @@
 .rightbox {
   height: 190px;
 }
+
+.footer a {
+  margin: 0 auto;
+}
