@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>ND Portfolio</title>
 </head>
@@ -20,7 +21,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-      <ul class="navbar-nav">
+      <ul class="navbar-nav topnav">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">About
             <span class="sr-only">(current)</span>
@@ -44,19 +45,27 @@
   <div class="row">
     <div class="col-md-8">
         <div class="card">
-            <div class="card-body">
+            <div class="card-body leftbox">
               <h2>Portfolio</h2>
               <br>
 
-              <img class="placeholders" src="./assets/images/place1.jpg">
-              <img class="placeholders" src="./assets/images/place2.jpg">
-              <img class="placeholders" src="./assets/images/place3.jpg">
-              <img class="placeholders" src="./assets/images/place4.jpg">
-              <img class="placeholders" src="./assets/images/place5.jpg">
+            <div class="row placeholders">
+              <div class="col-md-6"><img class="placeholders" src="./assets/images/place1.jpg"></div>
+              <div class="col-md-6"><img class="placeholders" src="./assets/images/place2.jpg"></div>
+            </div>
+
+            <div class="row placeholders">
+              <div class="col-md-6"><img class="placeholders" src="./assets/images/place3.jpg"></div>
+              <div class="col-md-6"><img class="placeholders" src="./assets/images/place4.jpg"></div>
+            </div>
+
+            <div class="row placeholders">
+              <div class="col-md-6"><img class="placeholders" src="./assets/images/place5.jpg"></div>
+            </div>
 
             </div>
           </div>
-      </div>
+        </div>
 
       <div class="col-md-4 card rightbox">
         <h3 class="connect">Connect with Me</h3>
